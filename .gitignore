@@ -1,0 +1,9 @@
+trace_*/*
+*.log
+*.tar 
+*.zip
+__pycache__/*
+*.pt
+prof_dir/
+results/
+dependencies/
