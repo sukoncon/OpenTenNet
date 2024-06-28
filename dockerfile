@@ -17,4 +17,4 @@ RUN export TORCH_CUDA_ARCH_LIST="7.5+PTX" & cd /workspace/Ai4S-release-submodule
 RUN cd /workspace/Ai4S-release-submodule/python && rm -rf build && rm -rf __pycache__ && pip install .
 
 # Install python pakages
-RUN pip install py3nvml matplotlib 
+RUN pip install py3nvml matplotlib -i https://pkg.pjlab.org.cn/repository/pypi-proxy/simple/ --trusted-host pkg.pjlab.org.cn

@@ -1,1 +1,1 @@
-sudo docker build -t opentennet:v0 .
+sudo docker build -t opentennet:v0.1 .
